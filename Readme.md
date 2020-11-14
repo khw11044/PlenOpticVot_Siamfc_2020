@@ -10,8 +10,11 @@ pip install -r requirements.txt
 ## 0. 데이터 구조
 
 data -- 000
+
        -- 001
+       
        -- 002 -- focal 
+       
        -- ...     ㄴ image
 
 focal 폴더에 101개의 PlenOptic focal 이미지가 있습니다.
