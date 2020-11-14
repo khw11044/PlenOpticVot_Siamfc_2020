@@ -1,0 +1,144 @@
+
+
+1. 2D tracking 
+ 1. NonVideo4_0 ( 400frame)
+precision_count_5 : 82	-> 82/400 * 100 = 20.5
+precision_count_10 : 114	-> 114/400 * 100 = 28.5
+precision_count_15 : 116	-> 116/400 * 100 = 29
+precision_count_20 : 118	-> 118/400 * 100 = 29.5
+precision_count_40 : 126	-> 126/400 * 100 = 31.5
+mean_precision : 52.86685141786798
+IOU : 25.15933119747865
+
+ 2. NonVideo4_1 ( 373 frame )
+precision_count_5 : 84	-> 84/373 * 100 = 22.5201072386059
+precision_count_10 : 265	-> 265/373 * 100 = 71.0455764075067
+precision_count_15 : 272	-> 272/373 * 100 = 72.92225201072386
+precision_count_20 : 272	-> 272/373 * 100 = 72.92225201072386
+precision_count_40 : 288	-> 288/373 * 100 = 77.21179624664879
+mean_precision : 28.696707360184828
+IOU : 66.88881264146904
+
+
+
+
+2. 3D focla tracking siamfc
+
+[track V0]
+NonVideo_0 ( 400 frame)
+precision_count_5 : 29
+precision_count_10 : 32
+precision_count_15 : 32
+precision_count_20 : 32
+precision_count_40 : 35
+mean_precision : 132.00368591628606
+IOU : 7.457368912477271
+
+NonVideo_01( 373 frame)
+precision_count_5 : 26
+precision_count_10 : 39
+precision_count_15 : 41
+precision_count_20 : 41
+precision_count_40 : 58
+mean_precision : 81.31102700519229
+IOU : 10.985724267156032
+
+ [My_siamfc]
+NonVideo_0 ( 400 frame)
+precision_count_5 : 266	-> 266/400 * 100 = 66.5
+precision_count_10 : 353	-> 353/400 * 100 = 88.25
+precision_count_15 : 382	-> 382/400 * 100 = 95.5
+precision_count_20 : 389	-> 389/400 * 100 = 97.25
+precision_count_40 : 400	-> 400/400 * 100 = 100
+mean_precision : 5.059333100938863
+IOU : 75.62490635856538
+	
+NonVideo_1 ( 373 frame )
+precision_count_5 : 141	-> 141/373 * 100 =37.80160857908847
+precision_count_10 : 282	-> 282/373 * 100 = 75.60321715817694
+precision_count_15 : 349	-> 349/373 * 100 = 93.5656836461126
+precision_count_20 : 360	-> 360/373 * 100 = 96.51474530831099
+precision_count_40 : 370	-> 370/373 * 100 = 100
+mean_precision : 7.844666217447704
+IOU : 76.24057271420114
+
+
+ [My_siamfc2]
+ NonVidoe4_0 ( 400 frame )
+precision_count_5 : 314	-> 314/400 * 100 = 78.5
+precision_count_10 : 366	-> 366/400 * 100 = 91.5
+precision_count_15 : 379	-> 379/400 * 100 = 94.75
+precision_count_20 : 387	-> 387/400 * 100 = 96.75
+precision_count_40 : 400	-> 400/400 * 100 = 100
+mean_precision : 4.274681678416555
+IOU : 86.94816545317923
+
+
+ NonVideo4_1 ( 373 frame )
+precision_count_5 : 237	-> 237/373 * 100 = 63.53887399463807
+precision_count_10 : 361	-> 361/373 * 100 = 96.7828418230563
+precision_count_15 : 368	-> 368/373 * 100 = 98.65951742627346
+precision_count_20 : 369	-> 369/373 * 100 = 98.92761394101877
+precision_count_40 : 373	-> 100
+mean_precision : 4.530586279485655
+IOU : 44.428912417253535
+
+
+ [My_siamfc2_2]
+
+ NonVideo4_0 (400 frame )
+precision_count_5 : 323	-> 323/400 * 100 = 80.75
+precision_count_10 : 358	-> 358/400 * 100 = 89.5
+precision_count_15 : 380	-> 380/400 * 100 = 95
+precision_count_20 : 388	-> 388/400 * 100 = 97
+precision_count_40 : 400	-> 100
+mean_precision : 3.9765890209095853
+IOU : 84.93537128444005
+
+ NonVideo4_1 (373 frame )
+precision_count_5 : 207	-> 207/373 * 100 = 55.49597855227882
+precision_count_10 : 347	-> 347/373 * 100 = 93.02949061662198
+precision_count_15 : 359	-> 359/373 * 100 = 96.24664879356568
+precision_count_20 : 361	-> 361/373 * 100 = 96.7828418230563
+precision_count_40 : 373	-> 100
+mean_precision : 5.66745194654917
+IOU : 47.7636795595991
+
+[My_siamfc3]
+ NonVideo4_0 (400 frame )
+precision_count_5 : 272	-> 272/400 * 100 = 68
+precision_count_10 : 334	-> 334/400 * 100 = 83.5
+precision_count_15 : 381	-> 381/400 * 100 = 95.25
+precision_count_20 : 389	-> 389/400 * 100 = 97.25
+precision_count_40 : 400	-> 100
+mean_precision : 5.127283739444499
+IOU : 79.31205533257254
+
+ NonVideo4_1 (373 frame )
+precision_count_5 : 171	-> 171/373 * 100 = 45.84450402144772
+precision_count_10 : 314	-> 314/373 * 100 = 84.18230563002681
+precision_count_15 : 354	-> 354/373 * 100 = 94.90616621983914
+precision_count_20 : 362	-> 362/373 * 100 = 97.05093833780161
+precision_count_40 : 370	-> 370/373 * 100 = 99.19571045576408
+mean_precision : 6.758901826546612
+IOU : 81.30624851730838
+
+
+[My_siamfc3_2]
+ NonVideo4_0 (400 frame)
+precision_count_5 : 266
+precision_count_10 : 347
+precision_count_15 : 380
+precision_count_20 : 387
+precision_count_40 : 400
+mean_precision : 5.252764250018392
+IOU : 75.8351400065873
+
+ NonVideo4_1 (373 frame)
+precision_count_5 : 217
+precision_count_10 : 324
+precision_count_15 : 360
+precision_count_20 : 363
+precision_count_40 : 369
+mean_precision : 6.357669969378587
+IOU : 78.41278393208438
