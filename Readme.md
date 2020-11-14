@@ -48,7 +48,7 @@ python demo.py --model=../pretrained -vn ../data/NonVideo4_0 -lf 005 -D 2D
 ## 1. vot_siamfc_2D
 
 <div>
-<img width="200" src="https://user-images.githubusercontent.com/51473705/99151307-91c27400-26dd-11eb-9a99-fdf9f7217713.PNG">       
+<img width="800" src="https://user-images.githubusercontent.com/51473705/99151307-91c27400-26dd-11eb-9a99-fdf9f7217713.PNG">       
 </div>
 
 ### 2D 이미지 트래킹
@@ -100,7 +100,7 @@ python demo.py --model=../pretrained -vn ../data/NonVideo4 -lf 005
 ## 3. vot_siamfc_3D_v1
 
 <div>
-<img width="200" src="https://user-images.githubusercontent.com/51473705/99151364-fe3d7300-26dd-11eb-9340-316e1f2b6e12.PNG">       
+<img width="800" src="https://user-images.githubusercontent.com/51473705/99151364-fe3d7300-26dd-11eb-9340-316e1f2b6e12.PNG">       
 </div>
 
 ### * focal 선택적 방법 V1
@@ -132,7 +132,7 @@ python demo.py --model=../pretrained -vn ../data/NonVideo4_1 -lf 005
 ## 4. vot_siamfc_3D_v2
 
 <div>
-<img width="200" src="https://user-images.githubusercontent.com/51473705/99151382-1b724180-26de-11eb-9c4f-ed5377ae919c.PNG">       
+<img width="800" src="https://user-images.githubusercontent.com/51473705/99151382-1b724180-26de-11eb-9c4f-ed5377ae919c.PNG">       
 </div>
 
 ### * focal 선택적 방법 V2
@@ -162,7 +162,7 @@ python demo.py --model=../pretrained -vn ../data/NonVideo4 -lf 005
 ## 5. vot_siamfc_3D_v3
 
 <div>
-<img width="200" src="https://user-images.githubusercontent.com/51473705/99151393-2e851180-26de-11eb-9a46-d94fcabe99b7.PNG">       
+<img width="800" src="https://user-images.githubusercontent.com/51473705/99151393-2e851180-26de-11eb-9a46-d94fcabe99b7.PNG">       
 </div>
 
 ### * focal 선택적 방법 V3
