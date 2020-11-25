@@ -7,6 +7,7 @@ pip install -r requirements.txt
 ## Environment
 
 Window os
+
 Anaconda
 
 ## Installation
@@ -38,11 +39,11 @@ GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics 
 
 -model : pretrained 폴더에 학습된 모델이 있습니다.
 
--vn : tracking할 폴더위치를 지정합니다.
+-vn :  tracking할 폴더위치를 지정합니다.
 
--lf : 각 프레임별images의 이미지 번호를 지정합니다.
+-lf :  각 프레임별images의 이미지 번호를 지정합니다.
 
--D : 2D tracking의 경우 2D를 3D tracking을 할경우 3D를 입력합니다.
+-D :   2D tracking의 경우 2D를 3D tracking을 할경우 3D를 입력합니다.
 
 4.	Run:
 
