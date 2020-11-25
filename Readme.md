@@ -19,7 +19,7 @@ data -- 000
        
        -- 002 -- focal 
        
-       -- ...     ㄴ image
+       -- ...   ㄴ image
 
 focal 폴더에 101개의 PlenOptic focal 이미지가 있습니다.
 image 폴더에는 9개의 일단 이미지가 있습니다.
