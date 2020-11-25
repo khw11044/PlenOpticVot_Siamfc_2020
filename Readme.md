@@ -1,8 +1,8 @@
 # PlenOptic Image DATA by Siamfc
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ### Environment
 
@@ -12,7 +12,7 @@ Anaconda
 ### Installation
 
 Install Anaconda, then install dependencies:
-'''
+```
 # install PyTorch >= 1.0
 conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 # intall OpenCV using menpo channel (otherwise the read data could be inaccurate)
@@ -21,7 +21,7 @@ conda install -c menpo opencv
 pip install got10k
 conda install scipy
 GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics and tracking pipelines for 9 popular tracking datasets.
-'''
+```
 
 ### Data
 
@@ -45,9 +45,9 @@ GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics 
 
 4.	Run:
 
-'''
+```
 python Final/demo.py –model ../pretrained –vn ../data/NonVideo4 –lf 005 –D 2D
-'''
+```
 
 
 ## 0. 데이터 구조
@@ -70,11 +70,9 @@ image 폴더에는 9개의 일단 이미지가 있습니다.
 
 demo.py에서 2D 트래킹과 vot_siamfc_3D_v2_2를 선택적 수행이 가능합니다.
 
-<pre>
-<code>
+```
 python demo.py --model=../pretrained -vn ../data/NonVideo4_0 -lf 005 -D 2D
-</pre>
-</code>
+```
 
 명령행 옵션으로 --model, -vn, -lf, -D를 인자값으로 받습니다.
 
@@ -96,11 +94,9 @@ python demo.py --model=../pretrained -vn ../data/NonVideo4_0 -lf 005 -D 2D
 
 ### 2D 이미지 트래킹
 
-<pre>
-<code>
+```
 python demo.py --model=../pretrained -vn data/NonVideo4 -lf 005
-</pre>
-</code>
+```
 
 
 명령행 옵션으로 --model, -vn, -lf를 인자값으로 받습니다.
@@ -122,11 +118,9 @@ python demo.py --model=../pretrained -vn data/NonVideo4 -lf 005
 이 101장 중에 가장 높은 response 값을 갖는 scale_id에 해당하는 바운딩박스를 만들어
 2D 이미지에 찍어 보여줍니다.
 
-<pre>
-<code>
+```
 python demo.py --model=../pretrained -vn ../data/NonVideo4 -lf 005
-</pre>
-</code>
+```
 
 
 명령행 옵션으로 --model -vn -lf를 인자값으로 받습니다.
@@ -153,21 +147,17 @@ python demo.py --model=../pretrained -vn ../data/NonVideo4 -lf 005
 
 3장중 가장 높은 score를 보여주는 이미지를 선택하고 그 이미지 번호를 기준으로 다시 3장씩 읽어가는 방식으로 진행 됩니다.
 
-<pre>
-<code>
+```
 python demo.py --model=pretrained -vn ../data/NonVideo4 -lf 005 -lfs 27
-</pre>
-</code>
+```
 
 ## 3. vot_siamfc_3D_v1_2
 
 위 방법에서 직접 lfs를 정해주는것이 아니라 '선명도'를 통해 focal 위치를 잡아줍니다. 그 이후는 위 방법과 같이 진행됩니다.
 
-<pre>
-<code>
+```
 python demo.py --model=../pretrained -vn ../data/NonVideo4_1 -lf 005
-</pre>
-</code>
+```
 
 ---------------------------------------------------------------
 
@@ -185,20 +175,16 @@ python demo.py --model=../pretrained -vn ../data/NonVideo4_1 -lf 005
 
 crop된 이미지 9장중 가장 높은 score를 보여주는 이미지를 선택하고 그 이미지 번호를 기준으로 다시 3장씩 읽어가는 방식으로 진행 됩니다.
 
-<pre>
-<code>
+```
 python demo_mine.py --model=pretrained -vn ../data/NonVideo4 -lf 005 -lfs 27
-</pre>
-</code>
+```
 
 ## 4. vot_siamfc_3D_v2_2
 위 방법에서 직접 lfs를 정해주는것이 아니라 '선명도'를 통해 focal 위치를 잡아줍니다. 그 이후는 위 방법과 같이 진행됩니다.
 
-<pre>
-<code>
+```
 python demo.py --model=../pretrained -vn ../data/NonVideo4 -lf 005
-</pre>
-</code>
+```
 
 ---------------------------------------------------------------
 
@@ -217,20 +203,16 @@ crop된 이미지 각 3장중 가장 높은 score를 보여주는 이미지를 �
 
 그 이미지 번호를 기준으로 다시 3장씩 읽어가는 방식으로 진행 됩니다.
 
-<pre>
-<code>
+```
 python demo.py --model=../pretrained -vn ../data/NonVideo4 -lf 005 -lfs 27
-</pre>
-</code>
+```
 
 ## 5. vot_siamfc_3D_v3_2
 위 방법에서 직접 lfs를 정해주는것이 아니라 선명도를 통해 focal 위치를 잡아줍니다. 그 이후는 위 방법과 같이 진행됩니다.
 
-<pre>
-<code>
+```
 python demo.py --model=../pretrained -vn ../data/NonVideo4_0 -lf 005
-</pre>
-</code>
+```
 
 ---------------------------------------------------------------
 
@@ -247,8 +229,7 @@ siamfc_mine.py 에서 if visualize == True:
 
 에 아래와 같은 코드를 추가하여 respose를 봄으로써 모델이 객체에서 어디를 중점으로 보는지 볼수 있다.
 
-<pre>
-<code>
+```
 #fig, ax = plt.subplots(nrows=1, ncols=3, figsize=(16,16))  #response.shape[0]
 #fig.set_size_inches(12, 12)
 #for i in range(3):
@@ -261,5 +242,4 @@ siamfc_mine.py 에서 if visualize == True:
 #save_plt = "./response/{0:0=3d}".format(f)
 #plt.savefig(save_plt+'_'+str(scale_id)+'.png')
 
-</pre>
-</code>
+```
