@@ -31,6 +31,19 @@ GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics 
 
 각 프레임 폴더는 images폴더와 focal폴더로 구성되어있으며 본 프로젝트는 focal폴더의 이미지를 트래킹하여 images폴더의 이미지를 통해 bounding box를 보여줍니다.
 
+```
+data -- 000
+
+       -- 001
+       
+       -- 002 -- focal 
+       
+       -- ...   ㄴ image
+```
+
+focal 폴더에 101개의 PlenOptic focal 이미지가 있습니다.
+image 폴더에는 9개의 일단 이미지가 있습니다.
+
 ## Running the demo
 
 1.	Setup the sequence path in Final/demo.py 
@@ -50,20 +63,6 @@ GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics 
 ```
 python Final/demo.py –model ../pretrained –vn ../data/NonVideo4 –lf 005 –D 2D
 ```
-
-
-## 0. 데이터 구조
-
-data -- 000
-
-       -- 001
-       
-       -- 002 -- focal 
-       
-       -- ...   ㄴ image
-
-focal 폴더에 101개의 PlenOptic focal 이미지가 있습니다.
-image 폴더에는 9개의 일단 이미지가 있습니다.
 
 
 ## + 최종 Final
