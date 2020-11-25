@@ -1,12 +1,22 @@
-pip install matplotlib
-pip install Pillow
-pip install opencv-python
-pip install pytorch
-# install PyTorch >= 1.0
-conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
-# intall OpenCV using menpo channel (otherwise the read data could be inaccurate)
-conda install -c menpo opencv
-# install GOT-10k toolkit
-pip install got10k
-
-conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
+certifi==2020.11.8
+cycler==0.10.0
+fire==0.3.1
+got10k==0.1.3
+kiwisolver==1.3.1
+matplotlib==3.3.3
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+olefile==0.46
+Pillow 
+pycparser
+pyparsing==2.4.7
+python-dateutil==2.8.1
+scipy 
+Shapely==1.7.1
+six 
+termcolor==1.1.0
+torch==1.2.0
+torchvision==0.4.0
+wget==3.2
+wincertstore==0.2
