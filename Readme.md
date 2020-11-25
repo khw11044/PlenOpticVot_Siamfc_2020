@@ -20,8 +20,9 @@ conda install -c menpo opencv
 # install GOT-10k toolkit
 pip install got10k
 conda install scipy
-GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics and tracking pipelines for 9 popular tracking datasets.
 ```
+GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics and tracking pipelines for 9 popular tracking datasets.
+
 
 ## Data
 
