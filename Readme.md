@@ -5,10 +5,14 @@
 pip install -r requirements.txt
 </pre>
 </code>
+
 ### Environment
+
 Window os
 Anaconda
+
 ### Installation
+
 Install Anaconda, then install dependencies:
 <pre>
 <code>
@@ -22,11 +26,15 @@ conda install scipy
 GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics and tracking pipelines for 9 popular tracking datasets.
 </pre>
 </code>
+
 ### Data
+
 데이터는 프레임별 폴더로 구성되어있고 각 프레임폴더는 숫자로 구분되어 있습니다.(000~773)
 
 각 프레임 폴더는 images폴더와 focal폴더로 구성되어있으며 본 프로젝트는 focal폴더의 이미지를 트래킹하여 images폴더의 이미지를 통해 bounding box를 보여줍니다.
+
 ### Running the demo
+
 1.	Setup the sequence path in Final/demo.py 
 2.	Setup the checkpoint path of your pretrained model. Default is pretrained/siamfc_alexnet_e50.pth.
 3.	Argument 
