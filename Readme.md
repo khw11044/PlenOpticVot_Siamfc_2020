@@ -50,7 +50,7 @@ image 폴더에는 9개의 일 이미지가 있습니다.
 2.	Setup the checkpoint path of your pretrained model. Default is pretrained/siamfc_alexnet_e50.pth.
 3.	Argument 
 
-    * -model : pretrained 폴더에 학습된 모델이 있습니다.
+>    * -model : pretrained 폴더에 학습된 모델이 있습니다.
 
     * -vn :  tracking할 폴더위치를 지정합니다.
 
