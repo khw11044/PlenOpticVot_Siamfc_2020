@@ -4,10 +4,6 @@
 <code>
 pip install -r requirements.txt
 </pre>
-또는
-<code>
-conda install requirements.txt
-</pre>
 </code>
 
 
