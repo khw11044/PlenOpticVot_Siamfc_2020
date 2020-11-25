@@ -6,6 +6,50 @@ pip install -r requirements.txt
 </pre>
 </code>
 
+### Environment
+Window os
+Anaconda
+
+### Installation
+Install Anaconda, then install dependencies:
+<pre>
+<code>
+# install PyTorch >= 1.0
+conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
+# intall OpenCV using menpo channel (otherwise the read data could be inaccurate)
+conda install -c menpo opencv
+# install GOT-10k toolkit
+pip install got10k
+conda install scipy
+GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics and tracking pipelines for 9 popular tracking datasets.
+</pre>
+</code>
+
+### Data
+데이터는 프레임별 폴더로 구성되어있고 각 프레임폴더는 숫자로 구분되어 있습니다.(000~773)
+
+각 프레임 폴더는 images폴더와 focal폴더로 구성되어있으며 본 프로젝트는 focal폴더의 이미지를 트래킹하여 images폴더의 이미지를 통해 bounding box를 보여줍니다.
+
+### Running the demo
+1.	Setup the sequence path in Final/demo.py 
+2.	Setup the checkpoint path of your pretrained model. Default is pretrained/siamfc_alexnet_e50.pth.
+3.	Argument 
+
+-model : pretrained 폴더에 학습된 모델이 있습니다.
+
+-vn : tracking할 폴더위치를 지정합니다.
+
+-lf : 각 프레임별images의 이미지 번호를 지정합니다.
+
+-D : 2D tracking의 경우 2D를 3D tracking을 할경우 3D를 입력합니다.
+
+4.	Run:
+<pre>
+<code>
+python Final/demo.py –model ../pretrained –vn ../data/NonVideo4 –lf 005 –D 2D
+</pre>
+</code>
+
 
 ## 0. 데이터 구조
 
