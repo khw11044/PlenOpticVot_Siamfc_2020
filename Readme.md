@@ -1,10 +1,8 @@
 # PlenOptic Image DATA by Siamfc
 
-<pre>
-<code>
+'''
 pip install -r requirements.txt
-</pre>
-</code>
+'''
 
 ### Environment
 
@@ -14,8 +12,7 @@ Anaconda
 ### Installation
 
 Install Anaconda, then install dependencies:
-<pre>
-<code>
+'''
 # install PyTorch >= 1.0
 conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 # intall OpenCV using menpo channel (otherwise the read data could be inaccurate)
@@ -24,8 +21,7 @@ conda install -c menpo opencv
 pip install got10k
 conda install scipy
 GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics and tracking pipelines for 9 popular tracking datasets.
-</pre>
-</code>
+'''
 
 ### Data
 
@@ -48,11 +44,10 @@ GOT-10k toolkit is a visual tracking toolkit that implements evaluation metrics 
 -D : 2D tracking의 경우 2D를 3D tracking을 할경우 3D를 입력합니다.
 
 4.	Run:
-<pre>
-<code>
+
+'''
 python Final/demo.py –model ../pretrained –vn ../data/NonVideo4 –lf 005 –D 2D
-</pre>
-</code>
+'''
 
 
 ## 0. 데이터 구조
