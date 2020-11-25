@@ -42,7 +42,7 @@ data -- 000
 ```
 
 focal 폴더에 101개의 PlenOptic focal 이미지가 있습니다.
-image 폴더에는 9개의 일단 이미지가 있습니다.
+image 폴더에는 9개의 일 이미지가 있습니다.
 
 ## Running the demo
 
